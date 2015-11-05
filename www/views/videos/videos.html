@@ -1,5 +1,5 @@
 <ion-view view-title="videos">
-  <ion-content>
+
     <!--<ion-list>
       <div class="card">
         <ion-item>
@@ -24,21 +24,28 @@
     </ion-list>-->
 
 
-
-    <video>
-
-    </video>
+  <ion-content class="has-header padding" ng-controller="videosController">
 
 
+    <!--<div class="item item-divider">
+      <i class="ion-images"></i>
+      My Images
+    </div>
 
+    <a class="item item-list-detail">
+      <ion-scroll direction="x">
+        <img ng-repeat="image in allImages" ng-src="{{image.src}}" ng-click="showImages($index)" class="image-list-thumb"/>
+      </ion-scroll>
+    </a>-->
 
+    <br><br>
 
-
-
-
-
-
-
-
+    <div class="button-bar">
+      <button class="button button-outline button-positive" ng-click="playVideo('templates/video-popover.html')">Play a
+        video
+      </button>
+    </div>
   </ion-content>
+
+
 </ion-view>
