@@ -37,6 +37,13 @@ angular.module("starter")
       $scope.modal.hide();
       $scope.modal.remove()
     };
+
+
+    document.addEventListener('backbutton', function (event) {
+      $scope.closeModal();
+      console.log('hey yaaahh');
+    }, false);
+
   });
 
 
