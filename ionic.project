@@ -1,4 +1,11 @@
 {
   "name": "ionic video player",
-  "app_id": "055d0857"
+  "app_id": "055d0857",
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "12.41.296.5"
+    }
+  ]
 }
